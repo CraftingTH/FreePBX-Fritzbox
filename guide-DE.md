@@ -227,4 +227,4 @@ Der Custom-Eintrag sollte dort erscheinen. Dann vom Telefon `620` wählen – di
 
 ***
 
-*Erstellt: April 2026 | Konfiguration: FreePBX auf Docker/OMV · FritzBox als SIP-Trunk*
+*Erstellt: April 2026 | Konfiguration: FreePBX 17.0.28 | Asterisk 22.9.0 auf Docker/OMV · FritzBox als SIP-Trunk*

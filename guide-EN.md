@@ -40,7 +40,7 @@ Now configure the trunk in FreePBX that connects to the FritzBox.
 | Field | Value |
 |-------|-------|
 | Trunk Name | `FritzBox` |
-| Outbound CallerID | your landline number (e.g. `026289XXXXX`) |
+| Outbound CallerID | your landline number (e.g. `0XXXXXXXXXX`) |
 
 ### Tab: pjsip Settings → General
 
@@ -122,7 +122,7 @@ Enter the following patterns (one per line):
 | *(empty)* | *(empty)* | `0XXXXXXXXXX.` | German landline & mobile numbers |
 | *(empty)* | *(empty)* | `00X.` | International numbers |
 
-> The FritzBox expects numbers in standard German format (e.g. `017648729519`). No `**` prefix is needed here — that is only used for FritzBox-internal numbers in Step 5.
+> The FritzBox expects numbers in standard German format (e.g. `0176XXXXXXXX`). No `**` prefix is needed here — that is only used for FritzBox-internal numbers in Step 5.
 
 4. **Submit** → **Apply Config**
 

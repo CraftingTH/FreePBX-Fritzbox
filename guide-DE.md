@@ -40,7 +40,7 @@ Jetzt richtest du in FreePBX den Trunk zur FritzBox ein.
 | Feld | Wert |
 |------|------|
 | Trunk Name | `FritzBox` |
-| Outbound CallerID | deine Festnetznummer (z. B. `026289XXXXX`) |
+| Outbound CallerID | deine Festnetznummer (z. B. `02XXXXXXXXX`) |
 
 ### Reiter: pjsip Settings → General
 
@@ -122,7 +122,7 @@ Trage folgende Patterns ein (je eine Zeile):
 | *(leer)* | *(leer)* | `0XXXXXXXXXX.` | Deutsche Festnetz- & Mobilnummern |
 | *(leer)* | *(leer)* | `00X.` | Internationale Nummern |
 
-> Die FritzBox erwartet Nummern im normalen deutschen Format (z. B. `017648729519`). Kein `**`-Präfix nötig – das wird nur für FritzBox-interne Nummern in Schritt 5 verwendet.
+> Die FritzBox erwartet Nummern im normalen deutschen Format (z. B. `0176XXXXXXXX`). Kein `**`-Präfix nötig – das wird nur für FritzBox-interne Nummern in Schritt 5 verwendet.
 
 4. **Submit** → **Apply Config**
 
